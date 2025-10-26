@@ -72,7 +72,7 @@ header {
 } 
 
 .header__container {
-    padding-top: 24px;
+    padding-top: 32px;
     width: 100%;
     max-width: 720px;
     margin: 0 auto;
@@ -80,6 +80,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 
 .header__description {
@@ -120,7 +121,7 @@ button:active {
     display: flex;
 }
 
-.header__img--wrapper {
+.header__img--wrapper {  
     padding: 20px;
 }
 
