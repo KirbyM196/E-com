@@ -7,8 +7,8 @@
 }
 
 nav {
-height: 80px;
-display: flex;
+    height: 80px;
+    display: flex;
 }
 
 img {
@@ -31,7 +31,7 @@ p {
 }
 
 .purple {
-  color: #7342d6;  
+    color: #7342d6;  
 }
 
 .logo {
@@ -71,6 +71,8 @@ li {
 #landing {
     background-color: rgba(115, 66, 214, 0.1);
 }
+
+padding-top: clamp(24px, 6px, 96px);
 
 header {
     height: calc(100vh - 80px);
@@ -132,9 +134,8 @@ button:active {
 
 .container {
     padding: 56px 0;
-    margin-top: 200px;
 }
-  
+
 .row {
     width: 100%;
     max-width: 1200px;
@@ -181,4 +182,8 @@ HIGHLIGHTS
 .highlight__subtitle {
     font-size: 20px;
     margin-bottom: 16px;
+}
+
+
+.container {
 }
