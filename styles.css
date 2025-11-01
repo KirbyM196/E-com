@@ -72,8 +72,6 @@ li {
     background-color: rgba(115, 66, 214, 0.1);
 }
 
-padding-top: clamp(24px, 6px, 96px);
-
 header {
     height: calc(100vh - 80px);
 } 
@@ -184,6 +182,6 @@ HIGHLIGHTS
     margin-bottom: 16px;
 }
 
-
-.container {
+#highlights .container {
+    padding-top: clamp(24px, 6vw, 96px);
 }
