@@ -165,7 +165,7 @@ HIGHLIGHTS
     z-index: 1; */
 }
 
-#highlight:before {
+#highlights:before {
 background: url('assets/wave.svg');
 content: "";
 position: absolute;
