@@ -350,16 +350,21 @@ h2 {
     font-size: 32px;
 }
 .header__container {
+}
 
+.header__img--wrapper {
+padding-top: 32px;
 }
 
 .row {
-    padding: 32px;
+    padding-top: 32px;
 }
 
+
+
 button {
-    cursor: pointer;
     max-width: 200px;
+    cursor: pointer;
 }
 
 button:active {
@@ -374,4 +379,4 @@ button:active {
     border-radius: 4px;
     border: none;
     display: flex;
-
+}
