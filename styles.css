@@ -345,22 +345,20 @@ Latest
     color: #bfbfbf;
 }
 
-h2 {
-    padding: 32px;
-    font-size: 32px;
-}
-.header__container {
-}
+/*
 
-.header__img--wrapper {
-padding-top: 32px;
+Title box
+
+*/
+
+
+h2 {
+    font-size: 32px;
 }
 
 .row {
-    padding-top: 32px;
+    width: 100%;
 }
-
-
 
 button {
     max-width: 200px;
