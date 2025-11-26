@@ -149,6 +149,12 @@ button:active {
     margin: 0 auto;
 }
 
+.row__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /*
 
 HIGHLIGHTS 
@@ -347,34 +353,10 @@ Latest
 
 /*
 
-Title box
+EXPLORER
 
 */
 
-
-h2 {
-    font-size: 32px;
-}
-
-.row {
-    width: 100%;
-}
-
-button {
-    max-width: 200px;
-    cursor: pointer;
-}
-
-button:active {
-    transform: translateY(1px);
-}    
-
-.btn {
-    background-color: #7342d6;
-    color: white;
-    padding: 12px 24px;
-    font-size: 20px;
-    border-radius: 4px;
-    border: none;
-    display: flex;
+#explorer {
+    background-color: rgba(115, 66, 214, 0.1);
 }
