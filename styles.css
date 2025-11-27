@@ -139,10 +139,6 @@ button:active {
     z-index: 2;
 }
 
-.container {
-    padding: 56px 0;
-}
-
 .row {
     width: 100%;
     max-width: 1200px;
@@ -299,8 +295,11 @@ Latest
 */
 
 #latest {
-    padding-top: 8vw;
-    height: 1000px;
+    padding-top: 8px;
+    height: 800px;
+}
+
+.container {
 }
 
 .books {
@@ -353,10 +352,15 @@ Latest
 
 /*
 
-EXPLORER
+EXPLORE
 
 */
 
-#explorer {
+#explore {
     background-color: rgba(115, 66, 214, 0.1);
+    height: 400px;
+    padding-top: 75px;
+    margin-top: 400px;
+
 }
+
