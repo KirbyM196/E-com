@@ -56,7 +56,7 @@ a:hover {
 }
 
 ul {
-    display: 0;
+    display: flex;
 }
 
 li {
@@ -91,6 +91,7 @@ li {
     text-align: center;
     border: none;
     color: #7342d6;
+    display: none;
 }
 
 .menu__backdrop {
@@ -104,6 +105,11 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
+}
+
+.menu--open .menu__backdrop {
+    display: flex;
 }
 
 .menu__links {
@@ -459,4 +465,14 @@ footer {
 
  .footer__link {
     padding: 0 8px;
+ }
+
+ @media (max-width: 550px) {
+    .nav__links {
+        display: none;
+    }
+
+    .btn__menu {
+        display: block;
+    }
  }
