@@ -91,7 +91,8 @@ li {
     text-align: center;
     border: none;
     color: #7342d6;
-    display: none;
+    display: flex;
+    justify-content: center;
 }
 
 .menu__backdrop {
