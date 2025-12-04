@@ -197,7 +197,7 @@ button:active {
     width: 100%;
     max-width: 720px;
     margin: 0 auto;
-    height: 90%;
+    height: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
